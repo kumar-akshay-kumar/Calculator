@@ -1,5 +1,5 @@
 import styles from './Display.module.css'
-const Display = () => {
-    return <input className={styles.cal1} type="text" placeholder='Calculator By Akshay'/>
+const Display = ({displayValue}) => {
+    return <input className={styles.cal1} type="text" placeholder='AKSHAY KUMAR' value={displayValue} readOnly/>
 }
 export default Display;
